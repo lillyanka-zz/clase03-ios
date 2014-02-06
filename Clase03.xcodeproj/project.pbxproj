@@ -21,6 +21,9 @@
 		2B74AA8218A31CCD00145D43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B74AA6418A31CCD00145D43 /* UIKit.framework */; };
 		2B74AA8A18A31CCD00145D43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B74AA8818A31CCD00145D43 /* InfoPlist.strings */; };
 		2B74AA8C18A31CCD00145D43 /* Clase03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B74AA8B18A31CCD00145D43 /* Clase03Tests.m */; };
+		2B74AA9718A3232E00145D43 /* Persona.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B74AA9618A3232E00145D43 /* Persona.m */; };
+		2B74AA9A18A3319600145D43 /* DetalleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B74AA9918A3319600145D43 /* DetalleViewController.m */; };
+		2B74AA9C18A33A4E00145D43 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B74AA9B18A33A4E00145D43 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		2B74AA8718A31CCD00145D43 /* Clase03Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clase03Tests-Info.plist"; sourceTree = "<group>"; };
 		2B74AA8918A31CCD00145D43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2B74AA8B18A31CCD00145D43 /* Clase03Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Clase03Tests.m; sourceTree = "<group>"; };
+		2B74AA9518A3232E00145D43 /* Persona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Persona.h; path = ../Persona.h; sourceTree = "<group>"; };
+		2B74AA9618A3232E00145D43 /* Persona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Persona.m; path = ../Persona.m; sourceTree = "<group>"; };
+		2B74AA9818A3319600145D43 /* DetalleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetalleViewController.h; sourceTree = "<group>"; };
+		2B74AA9918A3319600145D43 /* DetalleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetalleViewController.m; sourceTree = "<group>"; };
+		2B74AA9B18A33A4E00145D43 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B74AA9C18A33A4E00145D43 /* Social.framework in Frameworks */,
 				2B74AA6318A31CCD00145D43 /* CoreGraphics.framework in Frameworks */,
 				2B74AA6518A31CCD00145D43 /* UIKit.framework in Frameworks */,
 				2B74AA6118A31CCD00145D43 /* Foundation.framework in Frameworks */,
@@ -101,6 +110,7 @@
 		2B74AA5F18A31CCD00145D43 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2B74AA9B18A33A4E00145D43 /* Social.framework */,
 				2B74AA6018A31CCD00145D43 /* Foundation.framework */,
 				2B74AA6218A31CCD00145D43 /* CoreGraphics.framework */,
 				2B74AA6418A31CCD00145D43 /* UIKit.framework */,
@@ -112,11 +122,15 @@
 		2B74AA6618A31CCD00145D43 /* Clase03 */ = {
 			isa = PBXGroup;
 			children = (
+				2B74AA9518A3232E00145D43 /* Persona.h */,
+				2B74AA9618A3232E00145D43 /* Persona.m */,
 				2B74AA6F18A31CCD00145D43 /* AppDelegate.h */,
 				2B74AA7018A31CCD00145D43 /* AppDelegate.m */,
 				2B74AA7218A31CCD00145D43 /* Main.storyboard */,
 				2B74AA7518A31CCD00145D43 /* ViewController.h */,
 				2B74AA7618A31CCD00145D43 /* ViewController.m */,
+				2B74AA9818A3319600145D43 /* DetalleViewController.h */,
+				2B74AA9918A3319600145D43 /* DetalleViewController.m */,
 				2B74AA7818A31CCD00145D43 /* Images.xcassets */,
 				2B74AA6718A31CCD00145D43 /* Supporting Files */,
 			);
@@ -249,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B74AA9718A3232E00145D43 /* Persona.m in Sources */,
 				2B74AA7718A31CCD00145D43 /* ViewController.m in Sources */,
 				2B74AA7118A31CCD00145D43 /* AppDelegate.m in Sources */,
+				2B74AA9A18A3319600145D43 /* DetalleViewController.m in Sources */,
 				2B74AA6D18A31CCD00145D43 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
